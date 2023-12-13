@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 2 - Vladislav D05</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Problema 2 - Vladislav D05</h1>
+    <a href="{{ url_for('plot_all') }}" target="_blank">Plot All</a>
+    <br>
+    <a href="{{ url_for('plot_first', X=5) }}" target="_blank">Plot First</a>
+    <br>
+    <a href="{{ url_for('plot_last', Y=5) }}" target="_blank">Plot Last</a>
+</body>
+</html>
